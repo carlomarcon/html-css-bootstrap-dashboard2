@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+/* HEADER */
+
+header {
+  height: 15%;
+  width: 100%;
+}
+
+/* MAIN */
+
+.row {
+  height: 85%;
+  width: 100%;
+}
+
+/* COLONNA SINISTRA */
+
+.input-container {
+  width: 20%;
+  height: 100%;
+}
+
+/* COLONNA DESTRA */
+
+.info-container {
+  width: 80%;
+  height: 100%;
+}
