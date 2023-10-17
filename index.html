@@ -41,9 +41,11 @@
             </div>
           </nav>
         </header>
-        <div class="row">
+        <div class="row gx-0">
           <!-- COLONNA SINISTRA -->
-          <div class="container h-100 w-25 container-input text-center">
+          <div
+            class="container h-100 w-25 container-input text-center position-relative"
+          >
             <a href="" class="mt-5 d-block"
               ><i class="fa-solid fa-house"></i
             ></a>
@@ -56,19 +58,67 @@
               <i class="fa-solid fa-signal d-block"></i
             ></a>
 
-            <a href="" class="last-i d-block"
+            <a href="" class="ms_last-i d-block position-absolute"
               ><i class="fa-solid fa-gear d-block"></i
             ></a>
           </div>
 
           <!-- COLONNA DESTRA -->
 
-          <div class="container h-100 w-75" style="background-color: black">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+          <div
+            class="container h-100 w-75 gx-0"
+            style="background-color: black"
+          >
+            <!-- <div class="row"> -->
+            <div class="col h-50 w-100">
+              <div class="card w-sm-100">Nuovo studente + +</div>
+              <div class="card w-sm-100">
+                <h3>Boolean <span>Piano Blaze</span></h3>
+                <br />
+                <span>3 app</span><span>+</span>
+              </div>
+              <div class="card w-sm-100">
+                Studenti online negli ultimi 30 minuti
+              </div>
+            </div>
+            <div class="col h-50 w-100" style="background-color: aqua">
+              <div class="card w-sm-100 h-100 w-md-50">
+                <table class="table h-100">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card w-sm-0 w-md-50"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+
+            <!-- </div> -->
           </div>
         </div>
       </div>
